@@ -1,7 +1,11 @@
 html {
   text-align: center;
   font-size: 10px;
-  background-color: pink;
+  background: rgb(255, 255, 255);
+  background: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(228, 228, 228, 1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(228, 228, 228, 1) 100%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(228, 228, 228, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e4e4e4", GradientType=1);
   background-image: url("./images/1722.jpg");
   background-size: cover;
   background-repeat: no-repeat;

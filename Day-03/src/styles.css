@@ -1,0 +1,29 @@
+:root{
+    --base: #551b1b;
+    --spacing: 10px;
+    --blur:10px;
+
+}
+html{
+    background-image: url("https://images.unsplash.com/photo-1537813075314-eab032200609?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=750&q=80");
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 32%;
+}
+.hl{
+    color: var(--base);
+}
+h1{
+    color:#fff;
+    padding: 10px;
+    text-align: center;
+}
+label{
+    color: #fff;
+    margin-left: 20px;
+}
